@@ -1,0 +1,32 @@
+<div ng-controller="activity_history.ctrl">
+    <div class="main activity_detail">
+        <div class="activity_type">
+            <h5>图文消息编辑</h5>
+            <div class="activity_type_content">
+                <input type="text" placeholder="请在这里输入活动标题" class="text">
+                <input type="text" placeholder="请在这里输入作者" class="text_sm">
+                <textarea placeholder="从这里开始写正文" class="text_long"></textarea>
+                <p>图片</p>
+                <div>
+                    <input type="button" value="本地上传" class="button_gray">
+                    <input type="button" value="从图片库选择" class="button_gray">
+                </div>
+                <div>
+                    <span>（ 第一个图片显示在封面中）</span>
+                </div>
+                <ul class="activity_img_show">
+                    <li><img src="img/activit03y.jpg"></li>
+                    <li><img src="img/activit07y.jpg"></li>
+                </ul>
+                <input type="text" placeholder="请在这里输入活动地点" class="text_sm">
+                <input type="text" placeholder="活动时间格式如：（2016-5-12 9:00）" class="text_sm">
+            </div>
+            <div>
+                <input type="button" value="保存" class="button_gray">
+                <input type="button" value="保存并群发" class="button">
+                <input type="button" value="发布公告" class="button_yellow" ng-click="activity_bbs()">
+                <input type="button" value="删除" class="button_delete">
+            </div>
+        </div>
+    </div>
+</div>

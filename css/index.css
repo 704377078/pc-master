@@ -95,6 +95,16 @@ a{
     box-sizing: border-box;
     cursor: pointer;
 }
+.button_yellow{
+    padding: 5px 15px;
+    background-color: greenyellow;
+    color: #ffffff;
+    margin-left: -1px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
 .button_delete{
     padding: 5px 15px;
     background-color:orangered;

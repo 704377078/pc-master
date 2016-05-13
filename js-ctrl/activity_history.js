@@ -1,10 +1,10 @@
 (function () {
-    var that = me.define("ship1", {
+    var that = me.define("activity_history", {
         ctrl: function () {
 
         },
-        activity_history:function(){
-            me.show("activity_history", {
+        activity_bbs:function(){
+            me.show("activity_bbs", {
                 showType: 0
             });
         }

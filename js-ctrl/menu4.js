@@ -1,24 +1,23 @@
 (function () {
     var that = me.define("menu4", {
         ctrl: function () {
-            that.changeShip(0);
+
         },
 
-        changeShip: function(shipIndex){
-            that.$scope.shipIndex = shipIndex;
-
-            switch(shipIndex){
-                case 0:
-                    me.show("activity_ship", {
-                        showType: 0
-                    });
-                    break;
-                case 1:
-                    me.show("re_activity_ship", {
-                        showType: 0
-                    });
-                    break;
-            }
+        ship1:function(){
+            me.show("ship1", {
+                showType: 0
+            });
+        },
+        ship2:function(){
+            me.show("ship2",{
+                showType:0
+            })
+        },
+        ship3:function(){
+            me.show("ship3",{
+                showType:0
+            })
         }
     });
 })();
